@@ -1,0 +1,6 @@
+{
+ "app_name": "app-dev",
+ "version": "0.1.0",
+ "description": "App for Git, Jenkins, CI/CD, Terraform, and Docker practice.",
+ "targets": []
+}
