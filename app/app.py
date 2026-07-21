@@ -30,7 +30,7 @@ def home():
 @app.get('/api/name')
 def report():
     return jsonify({
-        'Test': "Jenkins Polling Successful!"
+        'author': "Cassandra Colaco"
  })
 
 
