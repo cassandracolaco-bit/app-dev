@@ -19,7 +19,7 @@ def home():
     html = (
         '<h1>{{ name }}</h1>'
         '<p>Version: {{ ver }}</p>'
-        '<p><a href="/api/health">/api/health</a></p>'
+        '<p><a href="/api/name">/api/name</a></p>'
      )
     return render_template_string(
         html,
@@ -30,7 +30,7 @@ def home():
 @app.get('/api/name')
 def report():
     return jsonify({
-        'Test': "Testing Jenkins Polling..."
+        'Test': "Jenkins Polling Successful!"
  })
 
 
